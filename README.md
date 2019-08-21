@@ -27,8 +27,21 @@ COMMAND     PID     USER    FD  TYPE    DEVICE      SIZE/OFF    NODE    NAME
 docker-pr   20887   root    4u  IPv6    225535203   0t0         TCP     *:1883 (LISTEN)
 ```
 
-> Generate strong ssh key for server setup
+> Generate strong `ssh key` for server setup
 
 ```bash
 >  ssh-keygen -t rsa -b 4096
+```
+
+## Files
+
+> Show files size in a directory and sort by size
+
+```bash
+> du -csh * | sort -rh
+
+# du: Disk Usage
+# -s: Summary for each file
+# -h: Human readable format
+# -c: Produce grand total
 ```
