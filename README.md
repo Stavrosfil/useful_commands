@@ -35,7 +35,7 @@ docker-pr   20887   root    4u  IPv6    225535203   0t0         TCP     *:1883 (
 
 ## Files
 
-> Show files size in a directory and sort by size
+> Show `files size` in a directory and `sort by size`
 
 ```bash
 > du -csh * | sort -rh
@@ -44,4 +44,8 @@ docker-pr   20887   root    4u  IPv6    225535203   0t0         TCP     *:1883 (
 # -s: Summary for each file
 # -h: Human readable format
 # -c: Produce grand total
+
+> du -csh * | sort -rh | head -n10
+
+# head -n10: Reduces the output to only 10 rows for readability
 ```
