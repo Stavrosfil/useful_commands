@@ -50,10 +50,12 @@ docker-pr   20887   root    4u  IPv6    225535203   0t0         TCP     *:1883 (
 # head -n10: Reduces the output to only 10 rows for readability
 ```
 
-> Change all `file permissions` on current directory to `current user` rights
+> Change `ownership` of all files on current directory to `current user`
 
-```Bash
-# cd /path/to/my/files
-
+```bash
 > chown -R $USER:$USER .
+
+# -R:		Do it recursively.
+# .:		Do it for everything inside the current directory.
+# $USER:	The user currently logged in.
 ```
