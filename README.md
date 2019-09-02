@@ -49,3 +49,9 @@ docker-pr   20887   root    4u  IPv6    225535203   0t0         TCP     *:1883 (
 
 # head -n10: Reduces the output to only 10 rows for readability
 ```
+
+> Convert windows line endings to unix
+
+```bash
+dos2unix file.txt
+```
