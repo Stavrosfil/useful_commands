@@ -55,3 +55,21 @@ docker-pr   20887   root    4u  IPv6    225535203   0t0         TCP     *:1883 (
 ```bash
 dos2unix file.txt
 ```
+
+> Change `ownership` of all files on current directory to `current user`
+
+```bash
+> chown -R $USER:$USER .
+
+# -R:		Do it recursively.
+# .:		Do it for everything inside the current directory.
+# $USER:	The user currently logged in.
+```
+
+> Create 'PDF' by merging images, text files and pdfs
+
+```bash
+# sudo apt install imagemagick
+
+> convert image1.jpg image2.png text.txt PDFfile.pdf outputFileName.pdf
+```
