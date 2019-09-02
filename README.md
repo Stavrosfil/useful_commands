@@ -1,6 +1,6 @@
-# Useful Bash Commands
+# Useful Commands
 
-This is a collection of useful bash commands I have found over time.
+This is a collection of useful commands I have found over time.
 
 ## Docker
 
