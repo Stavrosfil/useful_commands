@@ -4,6 +4,12 @@ This is a collection of useful commands I have found over time.
 
 ## Docker
 
+> Stop all the active containers at once and
+
+```bash
+> docker stop $(docker ps -q)
+```
+
 > Login inside a `docker container` with `admin` rights, and an `interactive terminal`
 
 ``` bash
