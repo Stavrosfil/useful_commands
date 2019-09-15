@@ -79,3 +79,18 @@ dos2unix file.txt
 
 > convert image1.jpg image2.png text.txt PDFfile.pdf outputFileName.pdf
 ```
+
+> Compress PDF files using ghostscript
+
+```bash
+> gs    -sDEVICE=pdfwrite           \
+        -dCompatibilityLevel=1.4    \
+        -dPDFSETTINGS=/ebook        \
+        -dNOPAUSE                   \
+        -dQUIET                     \
+        -dBATCH                     \
+        -sOutputFile=output.pdf     \
+        input.pdf
+
+# Additional options: http://milan.kupcevic.net/ghostscript-ps-pdf/
+```
