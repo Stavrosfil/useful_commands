@@ -2,6 +2,11 @@
 
 This is a collection of useful commands I have found over time.
 
+- [Useful Commands](#useful-commands)
+  - [Docker](#docker)
+  - [Networking](#networking)
+  - [Files](#files)
+  
 ## Docker
 
 > Stop all the active containers at once and
