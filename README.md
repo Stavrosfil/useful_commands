@@ -6,6 +6,7 @@ This is a collection of useful commands I have found over time.
   - [Docker](#docker)
   - [Networking](#networking)
   - [Files](#files)
+- [General](#general)
   
 ## Docker
 
@@ -98,4 +99,17 @@ dos2unix file.txt
         input.pdf
 
 # Additional options: http://milan.kupcevic.net/ghostscript-ps-pdf/
+```
+
+# General
+
+> Run something from a terminal and detach it from it.
+
+```bash
+> thingToRun &
+> disown
+
+# All you have to do is type & after whatever you want to run.
+# After the command runs, your terminal will seem detached, but if you exit, your application will be killed.
+# So you just type disown, and profit! you can exit your terminal.
 ```
