@@ -6,8 +6,9 @@ This is a collection of useful commands I have found over time.
   - [Docker](#docker)
   - [Networking](#networking)
   - [Files](#files)
-- [General](#general)
-  
+  - [PDF](#pdf)
+  - [General](#general)
+
 ## Docker
 
 > Stop all the active containers at once and
@@ -78,6 +79,8 @@ dos2unix file.txt
 # $USER:	The user currently logged in.
 ```
 
+## PDF
+
 > Create 'PDF' by merging images, text files and pdfs
 
 ```bash
@@ -101,7 +104,13 @@ dos2unix file.txt
 # Additional options: http://milan.kupcevic.net/ghostscript-ps-pdf/
 ```
 
-# General
+> Do anything PDF related using a nice GUI. (not a command but hey)
+
+```bash
+> pdfsam
+```
+
+## General
 
 > Run something from a terminal and detach it from it.
 
