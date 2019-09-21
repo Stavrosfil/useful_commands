@@ -122,3 +122,6 @@ dos2unix file.txt
 # After the command runs, your terminal will seem detached, but if you exit, your application will be killed.
 # So you just type disown, and profit! you can exit your terminal.
 ```
+
+### Friends
+- [/kongr45gpen/my-favourite-bash-commands](https://github.com/kongr45gpen/my-favourite-bash-commands)
