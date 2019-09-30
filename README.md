@@ -8,6 +8,7 @@ This is a collection of useful commands I have found over time.
   - [Files](#files)
   - [PDF](#pdf)
   - [General](#general)
+    - [Friends](#friends)
 
 ## Docker
 
@@ -131,3 +132,6 @@ input | wc -lw
 # -l: Count number of lines
 # -w: Count number of words
 ```
+
+### Friends
+- [/kongr45gpen/my-favourite-bash-commands](https://github.com/kongr45gpen/my-favourite-bash-commands)
