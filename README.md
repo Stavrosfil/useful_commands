@@ -122,3 +122,12 @@ dos2unix file.txt
 # After the command runs, your terminal will seem detached, but if you exit, your application will be killed.
 # So you just type disown, and profit! you can exit your terminal.
 ```
+
+> Count number of lines and words inside a file or console output.
+
+```bash
+input | wc -lw
+
+# -l: Count number of lines
+# -w: Count number of words
+```
