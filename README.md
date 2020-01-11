@@ -12,6 +12,12 @@ This is a collection of useful commands I have found over time.
 
 ## Docker
 
+> Find the ip address of a container
+
+```bash
+docker network inspect container_name | grep '"IPAddress"'
+```
+
 > Stop all the active containers at once and
 
 ```bash
