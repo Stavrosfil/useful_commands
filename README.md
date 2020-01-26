@@ -29,7 +29,27 @@ This is a collection of useful commands I have found over time.
 > docker network inspect container_name | grep '"IPAddress"'
 ```
 
-> Stop all the active containers at once and
+> Use the same `docker network` for all the containers inside a `docker-compose` file
+
+```bash
+# This will be extremely helpful for using docker-compose in a modular manner.
+# Multiple compose files can be used instead of one, without any extra modification, while allowing
+# containers of different files to directly communicate with each other.
+
+# Firstly, create the docker network "yourNetworkName"
+
+> docker network create yourNetworkName
+
+# Secondly, add the following lines to your docker-compose.yml and you're good to go.
+```
+```yaml
+networks:
+  default:
+    external:
+      name: yourNetworkName
+```
+
+> Stop all the active containers at once
 
 ```bash
 > docker stop $(docker ps -q)
