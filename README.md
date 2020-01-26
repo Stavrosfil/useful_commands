@@ -12,10 +12,21 @@ This is a collection of useful commands I have found over time.
 
 ## Docker
 
+> Update containers using `docker-compose`
+
+```bash
+# Update your tags inside docker-compose file
+# This method will ensure that everything with the new images is okay
+# and then update the actual running containers. (avoid downtime)
+# `start` and `restart` will NOT work
+> docker-compose build
+> docker-compose up -d
+```
+
 > Find the ip address of a container
 
 ```bash
-docker network inspect container_name | grep '"IPAddress"'
+> docker network inspect container_name | grep '"IPAddress"'
 ```
 
 > Stop all the active containers at once and
