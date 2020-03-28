@@ -26,7 +26,7 @@ This is a collection of useful commands I have found over time.
 > Find the ip address of a container
 
 ```bash
-> docker network inspect container_name | grep '"IPAddress"'
+> docker inspect container_name | grep '"IPAddress"'
 ```
 
 > Use the same `docker network` for all the containers inside a `docker-compose` file
